@@ -1,0 +1,77 @@
+.v-tabs__item {
+    opacity: 1 !important;
+}
+
+.my-textarea.v-input .v-input__slot {
+    border: solid 1px #B0BEC5 !important;
+}
+
+.my-textarea .v-input__control {
+    background-color: white !important;
+}
+
+.my-textarea .v-text-field__slot {
+    padding: 20px 0px !important;
+}
+
+.my-textarea.v-textarea.v-text-field--enclosed textarea {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: rgba(0,0,0,0.54) !important;
+}
+
+.my-input.v-input .v-input__slot {
+    border-radius: 5px !important;
+    padding: 10px !important;
+    border: solid 1px #B0BEC5 !important;
+    margin-bottom: 10px;
+}
+
+.my-input.my-combobox .v-input__slot {
+    padding: 5px 12px !important;
+    margin-bottom: 10px;
+}
+
+.my-input.my-combobox .v-input__slot label {
+    text-shadow: none !important;
+    color: rgba(0,0,0,.4) !important;
+}
+
+.my-custom-time-grey input[type=button] {
+    text-align: left !important;
+    color: rgba(0,0,0,.4) !important;
+}
+
+.my-custom-time-black input[type=button] {
+    text-align: left !important;
+    color: black !important;
+}
+
+.my-custom-table thead {
+    background-color: rgb(238, 238, 238) !important;
+}
+
+.v-rating {
+    position: relative !important;
+    margin-left: auto !important;
+    margin-top: .2em !important;
+    display: inline-flex !important;
+}
+
+.v-rating .v-icon {
+    padding: 0 !important;
+    font-size: 15px !important;
+}
+
+.v-rating .v-icon.primary--text {
+    padding: 0 !important;
+    color: #DDBD2F !important;
+}
+
+.v-rating .v-icon.accent--text {
+    color: #DDBD2F !important;
+}
+
+.my-job .v-input input {
+    color: rgba(0,0,0,0.54) !important;
+}

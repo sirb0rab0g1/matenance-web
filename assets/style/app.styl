@@ -1,0 +1,39 @@
+@require '~vuetify/src/stylus/settings/_colors'
+
+@import url('~/assets/fonts/helvetica/helvetica.css')
+@import url('~/assets/fonts/helvetica-neue/helvetica-neue.css')
+@import url('~/assets/style/custom/transitions.css')
+@import url('~/assets/style/custom/customs.css')
+@import url('~/assets/style/custom/override-vuetify.css')
+
+$theme := {
+  primary:     $blue.darken-2
+  accent:      $blue.accent-2
+  secondary:   $grey.lighten-1
+  info:        $blue.lighten-1
+  warning:     $amber.darken-2
+  error:       $red.accent-4
+  success:     $green.lighten-2
+}
+
+@require '~vuetify/src/stylus/app'
+
+.pointer
+  cursor: pointer
+
+html, body {
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    position: fixed;
+    overflow: hidden;
+}
+
+body {
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
